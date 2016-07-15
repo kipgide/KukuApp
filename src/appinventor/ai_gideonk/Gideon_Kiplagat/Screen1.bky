@@ -1,0 +1,18 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="1" x="236" y="41">
+    <mutation component_type="ListPicker" instance_name="ListPicker1" event_name="AfterPicking"></mutation>
+    <field name="COMPONENT_SELECTOR">ListPicker1</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="2" inline="false">
+        <value name="SCREEN">
+          <block type="component_set_get" id="3">
+            <mutation component_type="ListPicker" set_or_get="get" property_name="Selection" is_generic="false" instance_name="ListPicker1"></mutation>
+            <field name="COMPONENT_SELECTOR">ListPicker1</field>
+            <field name="PROP">Selection</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="157" language-version="20"></yacodeblocks>
+</xml>
